@@ -15,7 +15,7 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * login to [airflow ui with IAM user](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html)
 * can create [web login token](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html#call-mwaa-apis-web) via AWS CLI
 * upload DAG .py files to `dag` path in S3
-* run DAGs via airflow cli
+* run DAGs via airflow cli, REST endpoint, boto3
 * invoke [DAG via lambda](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-lambda.html)
 * install additional deps by providing requirements.txt
 * auto scales up and down via Apache Celery Executor by adding / removing worker containers as needed
