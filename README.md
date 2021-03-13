@@ -22,3 +22,4 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 ## Resources
 
 * [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/mwaa/index.html)
+* [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://dev.to/aws/interacting-with-amazon-managed-workflows-for-apache-airflow-via-the-command-line-4e91)
