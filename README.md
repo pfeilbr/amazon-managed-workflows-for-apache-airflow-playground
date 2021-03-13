@@ -13,6 +13,7 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * airflow ui exposed publically or private within VPC
 * login to [airflow ui with IAM user](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html)
 * upload DAG .py files to `dag` path in S3
+* run DAGs via airflow cli
 * invoke [DAG via lambda](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-lambda.html)
 * install additional deps by providing requirements.txt
 * auto scales up and down via Apache Celery Executor by adding / removing worker containers as needed
