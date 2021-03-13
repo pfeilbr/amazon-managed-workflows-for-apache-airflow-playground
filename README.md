@@ -20,6 +20,72 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * install additional deps by providing requirements.txt
 * auto scales up and down via Apache Celery Executor by adding / removing worker containers as needed
 
+## Example Environment Attributes
+
+```json
+{
+    "Environment": {
+        "AirflowConfigurationOptions": {},
+        "AirflowVersion": "1.10.12",
+        "Arn": "arn:aws:airflow:eu-west-1:xxxxxxxxxxxx:environment/airflow-blogpost-dublin",
+        "CreatedAt": 1610632127.0,
+        "DagS3Path": "dags",
+        "EnvironmentClass": "mw1.medium",
+        "ExecutionRoleArn": "arn:aws:iam:: xxxxxxxxxxxx:role/airflow-demo-mwaa-eks-iamrole",
+        "LastUpdate": {
+            "CreatedAt": 1611137820.0,
+            "Status": "SUCCESS"
+        },
+        "LoggingConfiguration": {
+            "DagProcessingLogs": {
+                "CloudWatchLogGroupArn": "arn:aws:logs:: xxxxxxxxxxxx:log-group:airflow-ricsue-dublin-DAGProcessing",
+                "Enabled": true,
+                "LogLevel": "INFO"
+            },
+            "SchedulerLogs": {
+                "CloudWatchLogGroupArn": "arn:aws:logs:: xxxxxxxxxxxx:log-group:airflow-ricsue-dublin-Scheduler",
+                "Enabled": true,
+                "LogLevel": "INFO"
+            },
+            "TaskLogs": {
+                "CloudWatchLogGroupArn": "arn:aws:logs:: xxxxxxxxxxxx:log-group:airflow-ricsue-dublin-Task",
+                "Enabled": true,
+                "LogLevel": "INFO"
+            },
+            "WebserverLogs": {
+                "CloudWatchLogGroupArn": "arn:aws:logs:: xxxxxxxxxxxx:log-group:airflow-ricsue-dublin-WebServer",
+                "Enabled": true,
+                "LogLevel": "INFO"
+            },
+            "WorkerLogs": {
+                "CloudWatchLogGroupArn": "arn:aws:logs:: xxxxxxxxxxxx:log-group:airflow-ricsue-dublin-Worker",
+                "Enabled": true,
+                "LogLevel": "INFO"
+            }
+        },
+        "MaxWorkers": 5,
+        "Name": "ricsue-dublin",
+        "NetworkConfiguration": {
+            "SecurityGroupIds": [
+                "sg-0c88ef4755c295zzz"
+            ],
+            "SubnetIds": [
+                "subnet-0493dffd0282f4xxx",
+                "subnet-08f416023356ffyyy"
+            ]
+        },
+        "RequirementsS3Path": "requirements/requirements.txt",
+        "ServiceRoleArn": "arn:aws:iam:: xxxxxxxxxxxx:role/aws-service-role/airflow.amazonaws.com/AWSServiceRoleForAmazonMWAA",
+        "SourceBucketArn": "arn:aws:s3:::airflow-mybucket",
+        "Status": "AVAILABLE",
+        "Tags": {},
+        "WebserverAccessMode": "PUBLIC_ONLY",
+        "WebserverUrl": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee.c5.eu-west-1.airflow.amazonaws.com",
+        "WeeklyMaintenanceWindowStart": "SUN:14:00"
+    }
+}
+```
+
 ## Resources
 
 * [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/mwaa/index.html)
