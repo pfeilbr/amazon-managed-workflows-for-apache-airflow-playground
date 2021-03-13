@@ -12,6 +12,7 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 
 * airflow ui exposed publically or private within VPC
 * login to [airflow ui with IAM user](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html)
+* can create [web login token](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html#call-mwaa-apis-web) via AWS CLI
 * upload DAG .py files to `dag` path in S3
 * run DAGs via airflow cli
 * invoke [DAG via lambda](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-lambda.html)
