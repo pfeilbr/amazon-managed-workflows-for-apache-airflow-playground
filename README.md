@@ -93,3 +93,4 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * [Interacting with Amazon Managed Workflows for Apache Airflow via the command line](https://dev.to/aws/interacting-with-amazon-managed-workflows-for-apache-airflow-via-the-command-line-4e91)
 * [AWS CLI Command Reference | mwaa](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/mwaa/index.html)
 * [Airflow — Custom Plugins](https://medium.com/swlh/airflow-custom-plugins-38f0848b74c5)
+* [Airflow XCOM : The Ultimate Guide](https://marclamberti.com/blog/airflow-xcom/)
