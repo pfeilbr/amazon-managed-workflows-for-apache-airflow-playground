@@ -19,6 +19,7 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * invoke [DAG via lambda](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-lambda.html)
 * install additional deps by providing requirements.txt
 * auto scales up and down via Apache Celery Executor by adding / removing worker containers as needed
+* scale via number of workers, and environment class
 
 ## Example Environment Attributes
 
