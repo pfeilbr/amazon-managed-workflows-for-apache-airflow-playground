@@ -10,7 +10,8 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 
 ## Notes
 
-* airflow web ui exposed publically or private within VPC
+* airflow ui exposed publically or private within VPC
+* login to [airflow ui with IAM user](https://docs.aws.amazon.com/mwaa/latest/userguide/access-airflow-ui.html)
 * upload DAG .py files to `dag` path in S3
 * invoke [DAG via lambda](https://docs.aws.amazon.com/mwaa/latest/userguide/samples-lambda.html)
 * install additional deps by providing requirements.txt
