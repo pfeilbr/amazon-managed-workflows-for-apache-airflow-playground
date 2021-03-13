@@ -21,6 +21,19 @@ learn [Amazon Managed Workflows for Apache Airflow](https://docs.aws.amazon.com/
 * auto scales up and down via Apache Celery Executor by adding / removing worker containers as needed
 * scale via number of workers, and environment class
 
+## Airflow
+
+**Plugins**
+
+* Hooks: Hooks are basically python modules that enables tasks to access external platform, like AWS, AZURE, GCP and many more.
+* Sensors: Sensors are python modules which are used to create watcher tasks(in the most basic sense), for example s3Sensor is used to create s3 file watcher task. A sensor stays in running state till a specific state appears.
+* Operators: Operators are typically execution engines. Operators are used to create task that execute some process, based on the type of Operator. For example: PythonOperator can be used create a task that will run a specific python method.
+
+**XCom**
+
+* share small bits of data between tasks
+* stored in airflow postgres db
+
 ## Example Environment Attributes
 
 ```json
